@@ -9,6 +9,8 @@ This project implements a complete state estimation system that fuses multiple s
 - Orientation (roll, pitch, yaw)
 
 The system uses an Extended Kalman Filter to intelligently combine sensor data, handling uncertainties and maintaining accuracy even when individual sensors fail or provide conflicting information.
+
+![animation](trajectory_animation.gif)
 ## Key Features
 
 - Multi-sensor fusion: Combines IMU, GPS, and LIDAR measurements
